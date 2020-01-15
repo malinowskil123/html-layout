@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 10px;
+  /* body height need to be set to a 100% to center contents in a div */
+  height: 100%;
+}
+
+.solid-container{
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.purple-box{
+  width: 50px;
+  height: 125px;
+  background-color: purple;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.green-box{
+  width: 350px;
+  height: 150px;
+  background-color: green;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.blue-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  display: inline-block;
+}
+
+.dotted-container{
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: dotted;
+  border-width: 5px;
+  padding: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.yellow-box{
+  width: 950px;
+  height: 150px;
+  background-color: #F0E68C;
+  display: inline-block;
+  box-shadow: 10px 10px 5px;
+}
+
+.gray-box{
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 7px;
+  /* code belows centers the text in the div */
+  /* body height need to be set to 100% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  color: purple;
+}
