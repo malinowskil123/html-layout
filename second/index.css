@@ -1,8 +1,13 @@
-body{
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
   padding: 10px;
   /* body height need to be set to a 100% to center contents in a div */
-  height: 100%;
+  height: 100vh;
 }
 
 .solid-container{
